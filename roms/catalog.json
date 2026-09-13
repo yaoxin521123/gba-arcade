@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "name": "晓月圆舞曲",
+    "label": "ARIA OF SORROW",
+    "file": "castlevania-aria-of-sorrow.gba",
+    "sha256": "879821a331a93daa30dcb4a855585bc8685dbb4c278db4e22f7115942d1f46af"
+  },
+  {
+    "name": "白夜协奏曲",
+    "label": "HARMONY OF DISSONANCE",
+    "file": "castlevania-harmony-of-dissonance.gba",
+    "sha256": "e405a34caf81522f7f4aac870075c9928975cc2550318d27a30aa0dda4e50a67"
+  }
+]
