@@ -1,0 +1,10 @@
+node_modules/
+preview-*.png
+verify*.cjs
+.env
+.env.*
+!.env.example
+*.gba
+*.sav
+*.ss0
+*.pocket-save

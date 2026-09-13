@@ -1,6 +1,6 @@
 # 站点卡带目录
 
-把可用于站点分发的 `.gba` 文件放在本目录，在 `catalog.json` 中登记。GitHub 仓库路径是 `gba-arcade/roms/`。
+把可用于站点分发的 `.gba` 文件放在本目录，在 `catalog.json` 中登记。GitHub 仓库路径是 `roms/`。
 
 例如，上传 `demo.gba` 后，将 `catalog.json` 改成：
 
@@ -25,4 +25,4 @@
 
 GitHub Pages 构建完成后，访问游戏页面，点击“刷新卡带”就能看到清单；点击卡带才下载游戏。模拟器在访客浏览器中运行，存档留在该浏览器。清单或文件加载失败不影响本地导入。
 
-`.gitignore` 默认忽略 ROM，避免误提交个人游戏。本机通过 Git 添加明确准备发布的单个文件时，可以使用 `git add -f -- gba-arcade/roms/demo.gba`；GitHub 网页上传不受本地忽略规则影响。
+`.gitignore` 默认忽略 ROM，避免误提交个人游戏。本机通过 Git 添加明确准备发布的单个文件时，可以使用 `git add -f -- roms/demo.gba`；GitHub 网页上传不受本地忽略规则影响。

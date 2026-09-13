@@ -1,5 +1,11 @@
 # POCKET ROOM · 口袋游戏室
 
+独立仓库：[yaoxin521123/gba-arcade](https://github.com/yaoxin521123/gba-arcade)
+
+在线游玩：https://yaoxin521123.github.io/gba-arcade/
+
+通过 GitHub Pages 从 `main` 分支根目录发布，无需构建。
+
 在本目录运行 `python -m http.server 8791`，访问 http://localhost:8791。GBA 模拟器需要 HTTP/HTTPS 页面，请不要双击 HTML 用 file:// 打开。
 
 点击右侧卡带插入，按 Enter 开始或暂停。方向键 / WASD 移动，空格执行游戏动作。机身方向键和 A / B 键支持鼠标、触屏。SELECT 或“弹出卡带”退出游戏。音效默认关闭，右上角开启。切换标签页时自动暂停。
@@ -23,6 +29,6 @@
 
 ## 站点卡带
 
-支持从同站点加载预配置的 GBA 卡带：文件放在 `gba-arcade/roms/`，在该目录的 `catalog.json` 登记 `name` 和 `file`。页面显示“站点卡带”，点击才开始下载并运行。完整格式见 [目录配置说明](roms/README.md)。默认清单为空，不附带任何游戏。
+支持从同站点加载预配置的 GBA 卡带：文件放在 `roms/`，在该目录的 `catalog.json` 登记 `name` 和 `file`。页面显示“站点卡带”，点击才开始下载并运行。完整格式见 [目录配置说明](roms/README.md)。默认清单为空，不附带任何游戏。
 
 文件下载设有 60 秒超时和 32 MB 大小限制。清单损坏、文件不存在或 ROM 无效时会提示错误，原有小游戏和本地导入仍可使用。站点卡带与同一文件的本地导入使用相同的 SHA-256 存档标识。
